@@ -1,5 +1,5 @@
 
-# AirBnb Clone (react + typescript) 
+# AirBnb Clone 🛎️ (react + typescript) 
 I want to enhance my React skills and refresh my memory on React, so for this reason I have decided to mock out and design a React clone of Airbnb, to use as a portfolio piece for my ever growing development portfolio. I have chose Airbnb as they continue to demonstrate year on year how they raise the bar in the world of tech and UI, and for this reason feel like I might be able to learn a thing or two from them by cloning their designs and get myself used to implementing such practices. 
 
 This document provides as a rough plan and checklist on how I’m going to develop a visually appealing user interface using react, ensuring every view and component is strongly typed. I want this demo to stand out above the other projects in my portfolio in terms of standardisation and best practices. 
