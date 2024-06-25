@@ -9,11 +9,11 @@ const router = express_1.default.Router();
 const listings_01_109_json_1 = __importDefault(require("../data/Listings/LDN/listings-01-109.json"));
 const listings = listings_01_109_json_1.default;
 router.get("/ldn", (req, res) => {
-    res.json(listings_01_109_json_1.default);
+    res.json(listings);
     return res;
 });
 router.get("/ldn/:id", (req, res) => {
-    const found = listings_01_109_json_1.default.some((listing) => listing.id === parseInt(req.params.id));
+    const found = listings.some((listing) => listing.id === parseInt(req.params.id));
     if (found) {
         res.json(listings_01_109_json_1.default.filter((listing) => listing.id === parseInt(req.params.id)));
     }

@@ -9,12 +9,12 @@ import { Listing } from "../types/listingTypes";
 const listings: Listing[] = LondonListings109;
 
 router.get("/ldn", (req: Request, res: Response) => {
-  res.json(LondonListings109);
+  res.json(listings);
   return res;
 });
 
 router.get("/ldn/:id", (req: Request, res: Response) => {
-  const found = LondonListings109.some(
+  const found = listings.some(
     (listing) => listing.id === parseInt(req.params.id)
   );
 
