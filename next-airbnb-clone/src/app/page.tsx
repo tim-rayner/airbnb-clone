@@ -1,6 +1,12 @@
+'use client'
 import Button from "@/components/Button"
 import Calendar from "@/components/Calendar/Calendar";
 import CategoryItem from "@/components/CategoryItem";
+
+
+const onDateChange = (range: { startDate: Date; endDate: Date; key: string }) => {
+  console.log(range);
+} 
 
 export default function Home() {
   
@@ -13,7 +19,7 @@ export default function Home() {
           <CategoryItem category={{name: "Apartments", icon: "pi pi-building"}} />
           <CategoryItem category={{name: "Condos", icon: "pi pi-star-fill"}} />
         </div>
-        <Calendar />
+        <Calendar onDateChange={onDateChange} />
     </main>
   );
 }
