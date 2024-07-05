@@ -1,4 +1,5 @@
 import Button from "@/components/Button"
+import Calendar from "@/components/Calendar/Calendar";
 import CategoryItem from "@/components/CategoryItem";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
           <CategoryItem category={{name: "Apartments", icon: "pi pi-building"}} />
           <CategoryItem category={{name: "Condos", icon: "pi pi-star-fill"}} />
         </div>
+        <Calendar />
     </main>
   );
 }

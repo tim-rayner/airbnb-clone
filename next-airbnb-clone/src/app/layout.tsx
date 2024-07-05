@@ -6,6 +6,12 @@ import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 import "primereact/resources/primereact.min.css"; 
 import "primereact/resources/themes/lara-light-indigo/theme.css";  
+
+//WHY do component libs do this 🥲
+import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/theme/default.css'; // theme css file
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
