@@ -26,6 +26,7 @@ const buttonStyleClasses = {
 
 /**
  * @todo: font weight should be controlled by one of the props 
+ * @todo: button hover should make the same affect as the airbnb button
  */
 
 const Button = ({
@@ -48,6 +49,7 @@ const Button = ({
   const styleClasses = buttonStyleClasses[style];
   const iconClass = icon.length ? icon : ""; 
   const iconOnlyClass = iconOnly ? "w-1" : ""; // Determine icon only class based on iconOnly prop
+
   return (
     <PrimeButton 
       outlined={false} 
