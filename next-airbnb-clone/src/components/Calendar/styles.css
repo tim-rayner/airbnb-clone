@@ -1,9 +1,7 @@
-
-
-  .rdrDateDisplayWrapper {
-    display: none !important;
-    border: solid red 2px;
-  }
+.rdrDateDisplayWrapper {
+  display: none !important;
+  border: solid red 2px;
+}
 
 .rdrEndEdge {
   background-color: black;
@@ -17,5 +15,5 @@
 
 .rdrInRange {
   color: black !important;
-  background-color: #f7f7f7 !important;
+  /* background-color: #f7f7f7 !important; */
 }
