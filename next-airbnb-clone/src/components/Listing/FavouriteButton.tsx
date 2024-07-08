@@ -6,7 +6,7 @@
  */
 const FavouriteButton = ({ rating }: { rating?: string }) => {
   return (
-    <div className="fav-button opacity-75">
+    <div className="fav-button opacity-75 z-50">
       <i className="pi pi-heart-fill text-black text-2xl mr-2"></i>
     </div>
   );

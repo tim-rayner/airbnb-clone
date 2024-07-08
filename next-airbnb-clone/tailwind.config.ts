@@ -38,6 +38,7 @@ const config: Config = {
         '--linaria-theme_palette-bg-primary-luxe': '#460479',
         '--linaria-theme_palette-bg-primary-plus': '#92174D',
         shadow: 'rgba(0,0,0,0.05)',
+        cloud: 'rgba(255, 255, 255, 0.95)',
         smoke: '#222222',
         'button-dark': '#e41d55',
       },

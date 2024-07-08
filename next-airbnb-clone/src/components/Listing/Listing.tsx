@@ -8,7 +8,7 @@ const Listing = () => {
     <div className="cursor-pointer relative">
       <ListingCarousel />
       <ListingLabel />
-      <div className="absolute top-3 right-2">
+      <div className="absolute top-3 right-2 z-50">
         <FavouriteButton />
       </div>
     </div>
