@@ -1,0 +1,6 @@
+.pi-heart-fill {
+  transition: transform 0.2s;
+}
+.pi-heart-fill:hover {
+  transform: scale(1.2);
+}
