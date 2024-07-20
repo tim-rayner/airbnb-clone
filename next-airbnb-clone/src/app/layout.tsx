@@ -30,7 +30,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <div className={inter.className}>{children}</div>
+        <div style={{ top: '125px' }} className={`${inter.className} relative`}>
+          {children}
+        </div>
       </body>
     </html>
   );
