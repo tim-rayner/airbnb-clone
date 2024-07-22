@@ -54,7 +54,7 @@ const Button = ({
   const sizeStyles = buttonSizeStyles[0][size];
   const radiusStyles = buttonRadiusStyles[rounded];
   const styleClasses = buttonStyleClasses[style];
-  const iconClass = icon.length ? icon : '';
+  const iconClass = icon.length ? icon : null;
   const iconOnlyClass = iconOnly ? 'w-1' : ''; // Determine icon only class based on iconOnly prop
 
   return (
