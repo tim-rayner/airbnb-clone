@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
 
 const ProfileDropdown = () => {
@@ -40,24 +41,24 @@ const ProfileDropdown = () => {
           <div className="dropdown-menu absolute -left-44 -bottom-80 border border-smoke border-opacity-25 bg-white rounded-xl w-[255px] shadow-lg transition-shadow ">
             <ul className="py-1">
               <li className="p-3 hover:bg-[rgba(0,0,0,0.054)] cursor-pointer">
-                <a href="#" className="font-bold">
+                <Link href="#" className="font-bold">
                   Sign up
-                </a>
+                </Link>
               </li>
               <li className="p-3 hover:bg-[rgba(0,0,0,0.054)] cursor-pointer">
-                <a href="/sandbox">Log in</a>
+                <Link href="/sandbox">Log in</Link>
               </li>
             </ul>
             <div className="border-t border-smoke border-opacity-15 p-2"> </div>
             <ul className="py-1">
               <li className="p-3 hover:bg-[rgba(0,0,0,0.054)] cursor-pointer">
-                <a href="#"> Giftcards </a>
+                <Link href="#"> Giftcards </Link>
               </li>
               <li className="p-3 hover:bg-[rgba(0,0,0,0.054)] cursor-pointer">
-                <a href="#"> Airbnb your home</a>
+                <Link href="#"> Airbnb your home</Link>
               </li>
               <li className="p-3 hover:bg-[rgba(0,0,0,0.054)] cursor-pointer">
-                <a href="#"> Help centre</a>
+                <Link href="#"> Help centre</Link>
               </li>
             </ul>
           </div>

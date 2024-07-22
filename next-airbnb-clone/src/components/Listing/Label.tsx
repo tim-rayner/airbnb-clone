@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Rating from './Rating';
 
 const ListingLabel = () => {
@@ -11,10 +12,10 @@ const ListingLabel = () => {
             <small> 25 Oct - 1 Nov</small>
           </p>
         </div>
-        <a href="#" target="_blank" className="underline font-bold">
+        <Link href="#" target="_blank" className="underline font-bold">
           {' '}
           £14,325 <span className="font-light">total</span>
-        </a>
+        </Link>
       </div>
       <div className="rating-container w-fit ml-auto">
         <div className="ml-auto w-fit mr-2">
